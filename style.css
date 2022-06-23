@@ -1,0 +1,72 @@
+
+  .mandiv {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    border: 2px dotted;
+  }
+  .basic {
+    height: 150px;
+    width: 150px;
+    background: orange;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .div1{
+    transform: scale(1.2);
+  }
+  .div2{
+    transform: skew(20deg);
+  }
+  .div3{
+    transform: translate(20px 10px);
+  }
+  .div4{
+    transform: rotate(40deg);
+  }
+  /*style */
+
+  .mandive{
+    width: 800px;
+    height: auto;
+    margin: 60px auto; 
+    border: 2px dotted red; 
+  }
+  .div5:hover{
+    transform: scale(1.2);
+    background-color: green;
+    transition: .4s;
+  }
+  .div6:hover{
+    transform: skew(20deg);
+    background-color: blue;
+    transition: .4s;
+  }
+  .div7:hover{
+    transform: translate(20px , 10px);
+    background-color: chocolate;
+    transition: .4s;
+  }
+  .div8:hover{
+    transform: rotate(40deg);
+    background-color: blueviolet;
+    transition: .4s;
+  }
+  /*img hover */ 
+  
+ 
+.img-style{
+    width: 400Px;
+     margin: 30px auto;
+     border: 1px solid red;
+     text-align: center; 
+     padding: 30px;
+}
+.img-style img{
+    max-width: 100%;
+    transition: .4s;
+}
+.img-style img:hover{
+  transform: scale(1.1) rotate(360deg);
+}
